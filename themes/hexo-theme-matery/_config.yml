@@ -85,7 +85,8 @@ music:
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-
+  hideLrc: true 
+  
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
@@ -191,7 +192,7 @@ postInfo:
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
   enable: true
-
+  
 sakura:
   enable: true
 
@@ -386,7 +387,7 @@ changyan:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/blinkfox/hexo-theme-matery
   title: Fork Me
 
