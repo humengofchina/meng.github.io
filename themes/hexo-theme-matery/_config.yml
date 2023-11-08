@@ -120,7 +120,7 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: true
+  enable: false
   name: 下载主题
   icon: fab fa-cloud-download
   url: https://codeload.github.com/blinkfox/hexo-theme-matery/zip/master
@@ -182,7 +182,7 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
+  update: true # 更新日期
   wordCount: true # 文章字数统计
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
@@ -191,7 +191,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: true
+  enable: false
   
 # | 文件名             | 说明                   |
 # | :----------------- | :--------------------- |
@@ -210,7 +210,7 @@ sakura:
 
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
-  enable: true
+  enable: false
 
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
@@ -457,6 +457,7 @@ libs:
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
     prism: /libs/prism/prism.css
+    sakura: /libs/others/sakura.js
   js:
     matery: /js/matery.js
     jquery: /libs/jquery/jquery.min.js
