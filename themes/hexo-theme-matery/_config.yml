@@ -614,10 +614,17 @@ subtitle:
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
-  sub1: 从来没有真正的绝境, 只有心灵的迷途
-  sub2: Never really desperate, only the lost of the soul
-  sub3: 天下万般兵刃，唯有过往伤人最深
-  sub4: Of all weapons the past cuts deepest
+  sub:
+    - 从来没有真正的绝境, 只有心灵的迷途
+    - Never really desperate, only the lost of the soul
+    - 天下万般兵刃，唯有过往伤人最深
+    - Of all weapons the past cuts deepest
+    - 世界上对勇气的最大考验是忍受失败而不丧失信心
+    - The greatest test of courage on earth is to bear defeat without losing heart
+    - 人生是美好的，但要学会如何享用美好的生活
+    - Life is fine and enjoyable, yet you must learn to enjoy your fine life
+    - 人生即是一段艰难曲折的旅程，人生无坦途
+    - Life is but a hard and tortuous journey
 
   
 
