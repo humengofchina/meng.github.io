@@ -584,7 +584,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: true
+  enable: false
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -592,7 +592,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: true
+  enable: false
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
@@ -616,16 +616,9 @@ subtitle:
   backSpeed: 50 # 删除速度
   sub1: 从来没有真正的绝境, 只有心灵的迷途
   sub2: Never really desperate, only the lost of the soul
-  sub3: 天下万般兵刃，唯有过往伤人最深!
-  sub4: Of all weapons the past cuts deepest!
-  sub5: 世界上对勇气的最大考验是忍受失败而不丧失信心。
-  sub6: The greatest test of courage on earth is to bear defeat without losing heart.
-  sub7: 世界犹如一面镜子：朝它皱眉它就朝你皱眉，朝它微笑它也吵你微笑。
-  sub8: The world is like a mirror: Frown at it and it frowns at you; smile, and it smiles too.
-  sub9: 人生是美好的，但要学会如何享用美好的生活。
-  sub10: Life is fine and enjoyable, yet you must learn to enjoy your fine life.
-  sub11: 人生即是一段艰难曲折的旅程，人生无坦途。
-  sub12: Life is but a hard and tortuous journey.
+  sub3: 天下万般兵刃，唯有过往伤人最深
+  sub4: Of all weapons the past cuts deepest
+
   
 
 # 手机二级菜单.
