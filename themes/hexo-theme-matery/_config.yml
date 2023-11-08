@@ -90,7 +90,7 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: true
+  enable: false
   showTitle: true
   title: 精彩视频
   url: /medias/videos/demo.mp4 # 必填
@@ -154,7 +154,7 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力
+  title: 感谢您简单粗暴的爱
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
@@ -290,7 +290,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: false
+  enable: true
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
@@ -550,7 +550,7 @@ tuxiaochao:
 
 #背景canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
