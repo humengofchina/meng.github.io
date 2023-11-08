@@ -78,13 +78,13 @@ music:
   type: playlist    #require song, playlist, album, search, artist
   id: 8848103951     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
-  autoplay: false   # 是否自动播放
+  autoplay: true   # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
+  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false  # 列表默认折叠
   hideLrc: true 
   
 # Whether to display the videos.
@@ -597,8 +597,8 @@ ribbon_dynamic:
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
-  enable: false
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  enable: true
+  sites: qq,wechat,weibo,douban
 
 # addthis文章分享模块.
 addthis:
